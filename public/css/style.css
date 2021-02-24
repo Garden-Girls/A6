@@ -411,6 +411,34 @@
 	font-size: 15px;
 	line-height: 19px;}
 
+.bottom #info-title{
+	position: absolute;
+	width: 269px;
+	height: 32px;
+	left: 45px;
+	top: 362px;
+
+	font-family: Lora;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 26px;
+}
+
+.bottom #info-text{
+	position: absolute;
+	width: 276px;
+	height: 191px;
+	left: 47px;
+	top: 410px;
+
+	font-family: Lora;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 19px;
+}
+
 .bottom #bell{
 	position: absolute;
 	width: 24px;
