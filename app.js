@@ -8,7 +8,14 @@ var http = require('http');
 var path = require('path');
 var handlebars = require('express3-handlebars')
 
+// all pages HERE! no slash - naming
 var index = require('./routes/index');
+var myPlantsPage = require('./routes/myPlantsPage');
+var calendar = require('./routes/calendar');
+var bert = require('./routes/bert');
+
+
+
 // Example route
 // var user = require('./routes/user');
 
@@ -35,7 +42,10 @@ if ('development' == app.get('env')) {
 }
 
 app.get('/', index.view);
-app.get('/', my-plants-page.view)
+app.get('/myPlantsPage', myPlantsPage.view);
+app.get('/calendar', calendar.view);
+app.get('/bert', bert.view);
+
 // Example route
 // app.get('/users', user.list);
 
