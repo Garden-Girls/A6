@@ -82,6 +82,12 @@
 	height: 35px;
 	left: 299px;
 	top: 90px;}
+#ok-button{
+	position: absolute;
+	width: 59px;
+	height: 34px;
+	left: 302px;
+	top: 83px;}
 
 #stripes{
 	position: absolute;
@@ -89,6 +95,7 @@
 	height: 88.8px;
 	left: 12px;
 	top: 142.97px;}
+	
 .stripes > h2 {
 	position: absolute;
 	width: 176px;
@@ -437,6 +444,51 @@
 	font-weight: normal;
 	font-size: 15px;
 	line-height: 19px;
+}
+
+.bottom #seed{
+	position: absolute;
+	width: 55px;
+	height: 37px;
+	left: 93px;
+	top: 510px;
+
+	font-family: Lora;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 26px;
+}
+
+.bottom #transplant{
+	position: absolute;
+	width: 101px;
+	height: 26px;
+	left: 93px;
+	top: 547px;
+
+	font-family: Lora;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 26px;
+}
+
+.bottom #seed-box{
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	left: 61px;
+	top: 510px;
+}
+
+.bottom #transplant-box{
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	left: 62px;
+	top: 549px;
+
 }
 
 .bottom #bell{
