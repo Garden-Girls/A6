@@ -11,8 +11,9 @@ var handlebars = require('express3-handlebars')
 // all pages HERE! no slash - naming
 var index = require('./routes/index');
 var myPlantsPage = require('./routes/myPlantsPage');
-var calendar = require('./routes/calendar');
+var calendar = require('./routes/Cal');
 var bert = require('./routes/bert');
+var dayEntry = require('./routes/dayEntry');
 
 
 
@@ -45,6 +46,7 @@ app.get('/', index.view);
 app.get('/myPlantsPage', myPlantsPage.view);
 app.get('/calendar', calendar.view);
 app.get('/bert', bert.view);
+app.get('/dayEntry', dayEntry.view);
 
 // Example route
 // app.get('/users', user.list);
